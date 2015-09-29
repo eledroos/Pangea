@@ -1,0 +1,105 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                tools:context=".LinearLayout" >
+                
+                        <TextView
+                            android:id="@+id/videoInformation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:paddingLeft="10px"
+                            android:paddingTop="20px"
+                            android:text="Video Information"
+                            android:textSize="23sp" />
+                        
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="horizontal"
+                                        android:paddingTop="20px">
+                                
+                                        <TextView
+                                            android:id="@+id/broadcastText"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:paddingLeft="10px"
+                                            android:paddingTop="20px"
+                                            android:text="Broadcaster:"
+                                            android:textSize="18sp" />
+                                
+                                        <TextView
+                                            android:id="@+id/broadcastString"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="40px"
+                                            android:layout_weight="0.50"
+                                            android:paddingTop="20px"
+                                            android:text="@string/broadcaster"
+                                            android:textSize="18sp" />
+
+                                    </LinearLayout>
+                        
+                                    <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingTop="20px"
+                                     >
+                                    
+                                                        <TextView
+                                                            android:id="@+id/locationText"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:paddingLeft="10px"
+                                                            android:paddingTop="20px"
+                                                            android:text="Location:"
+                                                            android:textSize="18sp" />
+                                                        
+                                                        <TextView
+                                                            android:id="@+id/locationString"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_gravity="center_horizontal"
+                                                            android:layout_marginLeft="40px"
+                                                            android:layout_weight="0.50"
+                                                            android:paddingTop="20px"
+                                                            android:textSize="18sp" 
+                                                            android:text="@string/location"/>
+                                 
+                                    </LinearLayout>
+                                    
+                                    <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:paddingTop="20px"
+                                     >
+                                    
+                                                        <TextView
+                                                            android:id="@+id/viewsText"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:paddingLeft="10px"
+                                                            android:paddingTop="20px"
+                                                            android:text="Video Views:"
+                                                            android:textSize="18sp" />
+                                                        
+                                                        <TextView
+                                                            android:id="@+id/viewsString"
+                                                            android:layout_width="wrap_content"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_gravity="center_horizontal"
+                                                            android:layout_marginLeft="40px"
+                                                            android:layout_weight="0.50"
+                                                            android:paddingTop="20px"
+                                                            android:textSize="18sp"
+                                                            android:text="@string/views" />
+                                 
+                                    </LinearLayout>
+                                    
+            
+            </LinearLayout>

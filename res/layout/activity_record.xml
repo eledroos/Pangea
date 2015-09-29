@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <FrameLayout
+            android:id="@+id/recordView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+        
+        <ImageButton
+            android:id="@+id/recordVideo" 
+            android:layout_width="75dip"
+     		android:layout_height="75dip" 
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/record2"/>
+        
+       
+    </RelativeLayout>
+</LinearLayout>
+

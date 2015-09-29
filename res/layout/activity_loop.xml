@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <VideoView
+            android:id="@+id/videoViewLoop" 
+            android:layout_width="fill_parent"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentBottom="true"
+             android:layout_height="fill_parent"/>
+            
+
+        <ImageButton
+            android:id="@+id/confirmVideo"
+            android:layout_width="75dip"
+            android:layout_height="75dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/continue2"
+            android:scaleType="fitXY"
+            android:onClick="submit" />
+ 
+        <ImageButton
+            android:id="@+id/exitVideo"
+          	android:layout_width="75dip"
+            android:layout_height="75dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/exit2"
+            android:scaleType="fitXY"
+            android:onClick="exit" />
+       
+    </RelativeLayout>
+</LinearLayout>
